@@ -23,7 +23,12 @@ section {
     margin-top: 120px;
 }
 
-h4 {
+
+
+/* header style */
+
+
+header h4 {
     color: rgba(255, 255, 255, 1);
     font-family: "Merriweather";
     font-style: Regular;
@@ -34,7 +39,7 @@ h4 {
     /* text-align: center; */
 }
 
-h2 {
+header h2 {
     color: rgba(255, 255, 255, 1);
     font-family: "Merriweather";
     font-style: Black;
@@ -45,7 +50,6 @@ h2 {
     /* text-align: center; */
 }
 
-/* header style */
 header {
     height: 600px;
     margin-top: 50px;
@@ -115,11 +119,11 @@ header {
     align-items: center;
 }
 
-.welcome-left{
+.welcome-left {
     max-width: 700px;
 }
 
-.welcome-right{
+.welcome-right {
     max-width: 320px;
 }
 
@@ -157,4 +161,52 @@ p {
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
+}
+
+
+
+/* EVENT   STYLES */
+.event-details {
+    height: 480px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event {
+    font-family: "Inter";
+    font-style: Semi Bold;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.red{
+    color: rgba(255, 0, 0, 1);
+}
+
+button{
+    /* Frame 1 */
+width: 167px;
+height: 56px;
+margin-top: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 16px 32px 16px 32px;
+border: none;
+border-radius: 8px;
+background: rgba(255, 0, 0, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 16px;
+font-weight: bolder;
 }
