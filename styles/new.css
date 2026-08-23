@@ -17,7 +17,10 @@
 * {
     max-width: 1320px;
     margin: 0 auto;
+}
 
+section {
+    margin-top: 120px;
 }
 
 h4 {
@@ -31,7 +34,7 @@ h4 {
     /* text-align: center; */
 }
 
-h1 {
+h2 {
     color: rgba(255, 255, 255, 1);
     font-family: "Merriweather";
     font-style: Black;
@@ -53,4 +56,105 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+/* offer style */
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixty-five {
+    color: rgba(255, 0, 0, 1);
+    font-family: "Inter";
+    font-style: Bold;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 106px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.our {
+    color: rgba(255, 0, 0, 1);
+    font-family: "Inter";
+    font-style: Medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.all {
+    color: rgba(7, 2, 17, 1);
+    font-family: "Inter";
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+/* welcome styles */
+.welcome {
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.welcome-left{
+    max-width: 700px;
+}
+
+.welcome-right{
+    max-width: 320px;
+}
+
+h3.midnight {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Merriweather";
+    font-style: Black;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter";
+    font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.join {
+    margin-top: 48px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
 }
